@@ -1,0 +1,50 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Awesome Startup Employee Directory",
+            "description": "For this project, you'll build an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other. ",
+            "technologies": [
+                "JavaScript"
+            ],
+            "live_link": "https://davechia.github.io/Treehouse-Project-Submit-5/",
+            "github_link": "https://github.com/DaveChia/Treehouse-Project-Submit-5.git",
+            "image_urls": [
+                "/static/images/Project5-0.jpg",
+                "/static/images/Project5-1.jpg"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Phrase Hunter",
+            "description": "This a browser-based, word guessing game: 'Phrase Hunter.'",
+            "technologies": [
+                "Javascript",
+                "Object Oriented Programming"
+            ],
+            "live_link": "https://davechia.github.io/Treehouse-Project-Submit-4/",
+            "github_link": "https://github.com/DaveChia/Treehouse-Project-Submit-4.git",
+            "image_urls": [
+                "/static/images/Project4-0.jpg",
+                "/static/images/Project4-1.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": " An interactive registration form for a fictional conference called 'FullStack Conf.'",
+            "technologies": [
+                "Jquery",
+                "Javascript",
+                "CSS",
+                "HTML"
+            ],
+            "live_link": "https://davechia.github.io/Treehouse-Project-3-Submission/",
+            "github_link": "https://github.com/DaveChia/Treehouse-Project-3-Submission.git",
+            "image_urls": [
+                "/static/images/Project3-0.jpg",
+                "/static/images/Project3-1.jpg"
+            ]
+        }
+    ]
+}

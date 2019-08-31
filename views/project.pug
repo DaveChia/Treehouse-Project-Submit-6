@@ -1,0 +1,27 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        h1 #{data.project_name}
+
+        p.lead.text-light
+          | #{data.description}
+
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Technologies
+
+        ul
+          each tech in data.technologies
+            li #{tech}    
+         
+        a.button.expanded(href=data.live_link) Live Demo
+        a.button.expanded(href=data.github_link) GitHub Repo
+    
+    each image in data.image_urls
+      img.image(src=image)
+    
